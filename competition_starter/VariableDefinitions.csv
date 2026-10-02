@@ -1,0 +1,122 @@
+Variable name,Description
+site,Unique identifier of the site/farm
+PID,Unique identifier of the soil sample site
+pH,"Soil pH level, indicating acidity or alkalinity"
+N,Nitrogen content in the soil in ppm
+P,Phosphorus content in the soil in ppm
+K,Potassium content in the soil in ppm
+S,Sulfur content in the soil in ppm
+Ca,Calcium content in the soil in ppm
+Mg,Magnesium content in the soil in ppm
+Mn,Manganese content in the soil in ppm
+Fe,Iron content in the soil in ppm
+Cu,Copper content in the soil in ppm
+B,Boron content in the soil in ppm
+Zn,Zinc content in the soil in ppm
+x,X coordinate on the raster grid
+y,Y coordinate on the raster  grid
+alb,black-sky albedo (MODIS)
+BulkDensity,"Topsoil bulk density (g/m^3, soil fines)"
+bio1,"Mean annual temperature (deg. C * 10, 1979-2013)"
+bio12,"Mean annual precipitation (mm/yr, 1979-2013)"
+bio15,"Mean rainfall seasonality (CV, 1979-2013)"
+bio7,"Mean annual temperature range (deg. C * 10, 1979-2013)"
+bp,building probability (AfSIS / GeoSurvey)
+cec20,Predicted topsoil cation exchange capacity (cmol/kg)
+dows,Distance to surface water (km)
+ecec20,"effective cation exchange capacity (0- 20 cm, cmolc kg-1 soil)"
+hp20,"exchangeable acidity (0-20 cm, cmolc kg-1 soil)"
+ls,RUSLE LS factor (slope length factor)
+lstd,"Average day-time land surface temp. (deg. C , 2001-2020)"
+lstn,"Average night-time land surface temp. (deg. C, 2001-2020)"
+mb1,Average MOD13Q1 band 1 reflectance (2001-2021)
+mb2,Average MOD13Q1 band 2 reflectance (2001-2021)
+mb3,Average MOD13Q1 band 3 reflectance (2001-2021)
+mb7,Average MOD13Q1 band 7 reflectance (2001-2021)
+mdem,Elevation above mean sea level (m)
+mlat,Pixel latitude (deg.)
+mlon,Pixel longitude (deg.)
+para,average MODIS fraction of absorbed photosynthetically active radiation (%)
+parv,variance MODIS PAR
+ph20,Predicted topsoil (0-20 cm) pH in water
+slope,Calculated slope (%)
+snd20,Predicted topsoil (0-20 cm) sand content (%)
+soc20,Predicted topsoil (0-20 cm) organic carbon content (g/kg)
+tim,Topographic index map
+wp,woody cover > 60% probability (GeoSurvey)
+xhp20,average soil acidity saturation to 20 cm
+S1,Pulled at a 15 day revist period with a 10m buffer. 
+VH,"Backscatter coefficient from the vertical transmit, horizontal receive polarization (in dB). Sensitive to volume scattering, e.g., vegetation."
+VV,"Backscatter coefficient from the vertical transmit, vertical receive polarization (in dB). Sensitive to surface roughness and soil moisture."
+date,Acquisition date of the Sentinel-1 image.
+instrumentMode,"Acquisition mode used by Sentinel-1, typically IW (Interferometric Wide swath) for land applications."
+orbitProperties_pass,Whether the satellite was in an ascending or descending orbit during acquisition.
+relativeOrbitNumber_start,Orbit number relative to the satellite’s repeat cycle. Useful for tracking consistency across passes.
+S2,Pulled at a 15 day revist period with a 10m buffer. 
+B1,"Band 1 – Coastal aerosol (443 nm), 60m resolution. Used for atmospheric correction."
+B2,"Band 2 – Blue (490 nm), 10m resolution. Sensitive to water and vegetation stress."
+B3,"Band 3 – Green (560 nm), 10m resolution. Vegetation and general land cover."
+B4,"Band 4 – Red (665 nm), 10m resolution. Vegetation discrimination and NDVI."
+B5,"Band 5 – Red Edge 1 (705 nm), 20m resolution. Sensitive to vegetation structure."
+B6,"Band 6 – Red Edge 2 (740 nm), 20m resolution. Vegetation chlorophyll content."
+B7,"Band 7 – Red Edge 3 (783 nm), 20m resolution. Vegetation biomass estimation."
+B8,"Band 8 – Near Infrared (NIR) (842 nm), 10m resolution. Strong vegetation signal, NDVI."
+B8A,"Band 8A – Narrow NIR / Red Edge 4 (865 nm), 20m resolution. Vegetation health."
+B9,"Band 9 – Water vapor band (945 nm), 60m resolution. Used for atmospheric correction."
+B11,"Band 11 – Shortwave Infrared (SWIR1) (1610 nm), 20m resolution. Soil, moisture, and burned area."
+B12,"Band 12 – Shortwave Infrared (SWIR2) (2190 nm), 20m resolution. Burned area and moisture."
+CLOUDY_PIXEL_PERCENTAGE,Estimated percentage of pixels in the scene affected by clouds.
+NODATA_PIXEL_PERCENTAGE,"Estimated percentage of pixels with no valid data (e.g., due to cloud/shadow/missing data)."
+MEAN_SOLAR_ZENITH_ANGLE,Average angle between the sun and the local zenith at the time of acquisition. Affects reflectance intensity.
+SENSING_ORBIT_NUMBER,Absolute orbit number of the satellite at the time of data capture.
+SPACECRAFT_NAME,"Name of the satellite, usually Sentinel-2A or Sentinel-2B."
+date,Acquisition date of the Sentinel-2 image.
+L8,Pulled at a 15 day revist period with a 30m buffer. 
+SR_B1,Surface Reflectance Band 1 – Blue (0.45–0.52 μm). Useful for mapping water and atmospheric haze.
+SR_B2,Surface Reflectance Band 2 – Green (0.52–0.60 μm). Vegetation and general land cover.
+SR_B3,Surface Reflectance Band 3 – Red (0.63–0.69 μm). Used for vegetation indices like NDVI.
+SR_B4,Surface Reflectance Band 4 – Near Infrared (NIR) (0.76–0.90 μm). Vegetation health and biomass.
+SR_B5,Surface Reflectance Band 5 – Shortwave Infrared 1 (SWIR1) (1.55–1.75 μm). Soil and moisture monitoring.
+SR_B6,"Surface Reflectance Band 6 – Shortwave Infrared 2 (SWIR2) (2.08–2.35 μm). Burned areas, vegetation moisture."
+SR_B7,Surface Reflectance Band 7 – SWIR3 (2.11–2.29 μm). Another SWIR band for distinguishing vegetation and soil.
+ST_B10,"Surface Temperature Band 10 – Thermal Infrared Sensor (TIRS) band (10.6–11.19 μm). Gives surface temperature (in Kelvin), after scaling."
+QA_PIXEL,"Quality Assurance Pixel Mask – Bitmask for pixel-level flags like cloud, shadow, snow, etc."
+QA_RADSAT,Radiometric Saturation QA – Flags pixels that have saturated in one or more bands during acquisition.
+CLOUD_COVER,Percentage of scene area covered by clouds (estimated by pre-processing algorithm).
+LANDSAT_PRODUCT_ID,"Unique Landsat product identifier (e.g., LC08_L2SP_XXX)."
+SENSOR_ID,"Identifier for the onboard sensor (e.g., OLI_TIRS, OLI, TIRS). Helps distinguish data sources (Landsat 7/8/9)."
+date,Acquisition date of the L8 data.
+MCD43A4,At 250m buffer
+Nadir_Reflectance_Band1,Red band reflectance (620–670 nm)
+Nadir_Reflectance_Band2,Near-infrared (NIR) reflectance (841–876 nm)
+Nadir_Reflectance_Band3,Blue band reflectance (459–479 nm)
+Nadir_Reflectance_Band4,Green band reflectance (545–565 nm)
+date,Observation date
+MOD09GA,At 250m buffer
+sur_refl_b01,Red band reflectance (620–670 nm)
+sur_refl_b02,NIR reflectance (841–876 nm)
+sur_refl_b03,Blue band reflectance (459–479 nm)
+sur_refl_b04,Green band reflectance (545–565 nm)
+sur_refl_b05,SWIR1 reflectance (1230–1250 nm)
+sur_refl_b06,SWIR2 reflectance (1628–1652 nm)
+sur_refl_b07,SWIR3 reflectance (2105–2155 nm)
+date,Observation date
+MOD11A1,At 250m buffer
+LST_Day_1km,Land Surface Temperature during the day (Kelvin × 0.02)
+LST_Night_1km,Land Surface Temperature at night (Kelvin × 0.02)
+date,Observation date
+MOD13Q1,At 250m buffer
+EVI,Enhanced Vegetation Index
+NDVI,Normalized Difference Vegetation Index
+RelativeAzimuth,Relative azimuth angle (sensor-sun)
+SolarZenith,Solar zenith angle
+ViewZenith,Sensor zenith angle
+date,Composite date
+sur_refl_b01,Red band reflectance (620–670 nm)
+sur_refl_b02,NIR reflectance (841–876 nm)
+sur_refl_b03,Blue band reflectance (459–479 nm)
+sur_refl_b07,SWIR3 reflectance (2105–2155 nm)
+MOD16A2,At 250m buffer
+ET,Actual Evapotranspiration (kg/m²/8 days)
+PET,Potential Evapotranspiration (kg/m²/8 days)
+date,Composite date
